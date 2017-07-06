@@ -1,6 +1,12 @@
-#work-responses {
+/*#stress-survey {
+  display: none;
+}*/
+#warning-responses {
   display: none;
 }
-#fun-responses {
+#health-responses {
+  display: none;
+}
+#coping-responses {
   display: none;
 }

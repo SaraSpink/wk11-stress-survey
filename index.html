@@ -10,50 +10,45 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Transportation Survey</h2>
+        <h2>Get it together</h2>
       </div>
-      <form id="transportation_survey">
+      <form id="stress-survey">
         <div class="form-group">
-          <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
-          <input type="checkbox" name="work-transportation" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="work-transportation" value="car">Driving a car.<br>
-          <input type="checkbox" name="work-transportation" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="work-transportation" value="walk">Walking.<br>
-          <input type="checkbox" name="work-transportation" value="bus">Riding the bus.<br>
-          <input type="checkbox" name="work-transportation" value="train">Riding the train.<br>
-          <input type="checkbox" name="work-transportation" value="streetcar">Riding the streetcar.<br>
-          <input type="checkbox" name="work-transportation" value="taxi">Taking a taxi.<br>
-          <input type="checkbox" name="work-transportation" value="rideshare">Using a rideshare service like Lyft or Uber.<br>
-          <input type="checkbox" name="work-transportation" value="skateboard">Skateboarding.<br>
-          <input type="checkbox" name="work-transportation" value="rollerblade">Rollerblading.<br>
-          <input type="checkbox" name="work-transportation" value="scooter">Riding a scooter.<br>
-          <input type="checkbox" name="work-transportation" value="other">Another mode of transportation not listed here.<br>
+          <p>Do I have any of the following symptoms?:</p>
+          <input type="checkbox" name="warning-signs" value="inanimate"> I am afraid of inanimate objects.<br>
+          <input type="checkbox" name="warning-signs" value="work">Work stresses me out.<br>
+          <input type="checkbox" name="warning-signs" value="cry">I want to cry right now.<br>
+          <input type="checkbox" name="warning-signs" value="weep">I am currently weeping.<br>
         </div>
         <div class="form-group">
-          <p>In the past year, I have used the following modes of transportation to travel to other activities and events:</p>
-          <input type="checkbox" name="fun-transportation" value="bike"> Riding a bike.<br>
-          <input type="checkbox" name="fun-transportation" value="car">Driving a car.<br>
-          <input type="checkbox" name="fun-transportation" value="carpool">Carpooling with others.<br>
-          <input type="checkbox" name="fun-transportation" value="walk">Walking.<br>
-          <input type="checkbox" name="fun-transportation" value="bus">Riding the bus.<br>
-          <input type="checkbox" name="fun-transportation" value="train">Riding the train.<br>
-          <input type="checkbox" name="fun-transportation" value="streetcar">Riding the streetcar.<br>
-          <input type="checkbox" name="fun-transportation" value="taxi">Taking a taxi.<br>
-          <input type="checkbox" name="fun-transportation" value="rideshare">Using a rideshare service like Lyft or Uber.<br>
-          <input type="checkbox" name="fun-transportation" value="skateboard">Skateboarding.<br>
-          <input type="checkbox" name="fun-transportation" value="rollerblade">Rollerblading.<br>
-          <input type="checkbox" name="fun-transportation" value="scooter">Riding a scooter.<br>
-          <input type="checkbox" name="fun-transportation" value="other">Another mode of transportation not listed here.<br>
+          <p>Which health issues currently apply to me?:</p>
+          <input type="checkbox" name="health-symptons" value="ears"> My ears are burning.<br>
+          <input type="checkbox" name="health-symptons" value="heart">I am having heart palpitations.<br>
+          <input type="checkbox" name="health-symptons" value="paws">I think I have pillow paw, my paws are swollen.<br>
+          <input type="checkbox" name="health-symptons" value="face">My face hurts.<br>
+          <input type="checkbox" name="health-symptons" value="bowels">I feel fine, aside from minor bowel irritation.<br>
+        </div>
+        <div class="form-group">
+          <p>I have tried the following to reduce my current stress:</p>
+          <input type="checkbox" name="coping" value="pot"> marijuana.<br>
+          <input type="checkbox" name="coping" value="cat">petting a cat.<br>
+          <input type="checkbox" name="coping" value="dog">petting a dog.<br>
+          <input type="checkbox" name="coping" value="lick">licking a cat, dog, toad, frog.<br>
+          <input type="checkbox" name="coping" value="bike">crashing a bike.<br>
         </div>
        <button type="submit">Submit Survey</button>
       </form>
-      <span id="work-responses">
-        <p><b>You use the following methods of transportation to travel to work or school:</b></p>
+      <span id="warning-responses">
+        <p id="warning"><b>based on your answers:</b></p>
       </span>
       <br>
-      <span id="fun-responses">
-        <p><b>You use the following methods of transportation to travel to other activities and events:</b></p>
+      <!-- <span id="health-responses">
+        <p><b>You use the following methods for health:</b></p>
       </span>
+      <br>
+      <span id="coping-responses">
+        <p><b>You use the following methods for your coping:</b></p>
+      </span> -->
     </div>
   </body>
 </html>
